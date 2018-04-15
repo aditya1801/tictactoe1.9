@@ -15,7 +15,9 @@ connection2.connect();
 connections =[];
 var waitingQueue = [];
 var tableCount=1;
-server.listen(2001);
+sserver.listen(process.env.PORT || 2001, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
 console.log('server is running');
 bodyParser = require('body-parser');
 
