@@ -197,7 +197,7 @@
         var $users=$('#users');
      $(function(){
        
-          $.get('http://localhost:2001/username', {}, function(data){
+          $.get('https://tictactoe101.herokuapp.com/username', {}, function(data){
            currentusername=data;
            console.log(currentusername);
            $username.val(currentusername);
