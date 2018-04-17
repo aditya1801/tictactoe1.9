@@ -6,10 +6,10 @@ var io=require('socket.io').listen(server);
 //$db = mysqli_connect('localhost', 'root', '', 'registration');
 users= [];
 var connection2 = mysql.createConnection({
-        host: 'ec2-54-243-213-188.compute-1.amazonaws.com',
-        user: 'wjywwosfaktatv',
-        password: "bfe84ccfc525a6ced62a8d75a7e646c4bd72d5fb299693dce5ab1a042fab1f0d",
-        database: 'dc9p4d6q32qbs0'
+        host: 'wvulqmhjj9tbtc1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+        user: 'bdbmmqfknj8h975z',
+        password: "he6gbhvksm4ep22c",
+        database: 'w32gn1l20sjouk4q'
 });
 connection2.connect();
 connections =[];
